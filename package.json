@@ -1,0 +1,41 @@
+{
+  "name": "webdev-starter",
+  "version": "1.0.0",
+  "description": "A web development project template to jump-start your projects without having to scaffold the basic libraries.",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "browser-sync": "^2.18.12",
+    "bootstrap": "^4.0.0-alpha.6",
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-htmlmin": "^3.0.0",
+    "gulp-imagemin": "^3.3.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "^3.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AmruthPillai/WebDev-Starter.git"
+  },
+  "keywords": [
+    "web",
+    "development",
+    "starter",
+    "template",
+    "html5",
+    "css3",
+    "gulp",
+    "bootstrap",
+    "jquery"
+  ],
+  "author": "AmruthPillai <im.amruth@gmail.com>",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/AmruthPillai/WebDev-Starter/issues"
+  },
+  "homepage": "https://github.com/AmruthPillai/WebDev-Starter#readme"
+}

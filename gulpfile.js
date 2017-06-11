@@ -16,7 +16,7 @@ gulp.task('serve', ['copy', 'sass', 'minify-js', 'minify-html', 'imagemin'], fun
   gulp.watch('src/scss/*.scss', ['sass']);
   gulp.watch('src/js/*.js', ['minify-js']);
   gulp.watch('src/images/*', ['imagemin']);
-  gulp.watch('src/*.html', ['minify-html']).on('change', browserSync.reload);
+  gulp.watch('src/*.html', ['minify-html']);
 });
 
 // Copy jQuery, Tether and Bootstrap Libraries to 'app' folder
